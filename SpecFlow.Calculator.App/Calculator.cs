@@ -1,12 +1,13 @@
-﻿namespace Katta;
-
-public class Calculator
+﻿namespace SpecFlow.Calculator.App
 {
-    public int FirstNumber { get; set; }
-    public int SecondNumber { get; set; }
-
-    public int Add()
+    public class Calculator
     {
-        throw new NotFiniteNumberException();
+        public int FirstNumber { get; set; }
+        public int SecondNumber { get; set; }
+
+        public int Add()
+        {
+            return FirstNumber + SecondNumber;
+        }
     }
 }
