@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {		
+		"cucumberautocomplete.steps": [
+			"/**/StepDefinitions/**/*.cs",
+			"/**/*StepDefinitions.cs"
+		]
+	}
+}
